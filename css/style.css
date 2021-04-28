@@ -3,8 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
+/* header */
 
 header {
     width: 100vw;
@@ -52,12 +51,32 @@ li {
 }
 
 
-.discord {
-    margin-top: 28spx;
+.button {
+    margin-top: 25px;
     margin-left: 1000px;
     font-size: 18px;
     border-radius: 20px;
     padding: 10px;
     border: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* fine header */
+
+/* jumbotron */
+
+.jumbotron {
+    width: 100vw;
+    height: 700px;
+    position: relative;
+
+
+}
+
+.testo-grande {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    text-align: center;
 }
