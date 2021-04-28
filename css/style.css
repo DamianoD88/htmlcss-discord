@@ -52,13 +52,16 @@ li {
 
 
 .button {
-    margin-top: 25px;
-    margin-left: 1000px;
     font-size: 18px;
     border-radius: 20px;
     padding: 10px;
     border: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    right: 400px;
+    top: 30px;
+    background-color: white;
+
 }
 /* fine header */
 
