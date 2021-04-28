@@ -128,6 +128,7 @@ li {
 
 }
 
+/* fine jumbotron */
 
 .seconda-scheda {
     width: 100%;
@@ -160,6 +161,56 @@ li {
 }
 
 .descrizione-paragrafo2 {
+    position: absolute;
+    top: 695px;
+    transform: translate(-57%, -85%);
+    font-size: 20px;
+    color: #23272a;
+    left: 1425px;
+    text-align: left;
+}
+
+/* fine seconda scheda */
+
+.terza-scheda {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+
+
+}
+
+.wave {
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+
+}
+
+.container-img2 {
+    width: 800px;
+    height: 500px;
+    background-image: url(../img/item2.svg);
+    background-size: contain;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+.paragrafo-terzo {
+    position: absolute;
+    top: 400px;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    line-height: 65px;
+    color: #23272a;
+    left: 1400px;
+    text-align: left;
+
+}
+
+.descrizione-paragrafo3 {
     position: absolute;
     top: 695px;
     transform: translate(-57%, -85%);
