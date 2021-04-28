@@ -71,6 +71,8 @@ li {
     width: 100vw;
     height: 700px;
     position: relative;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 
 
 }
