@@ -101,6 +101,34 @@ li {
     color: white;
 }
 
+.download-file {
+    font-size: 23px;
+    border-radius: 50px;
+    padding: 15px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 600px;
+    top: 380px;
+    background-color: white;
+
+}
+
+.direct {
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 15px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: absolute;
+    left: 950px;
+    top: 380px;
+    background-color: black;
+
+}
+
+
 .seconda-scheda {
     width: 100%;
     height: 1000px;
@@ -121,13 +149,22 @@ li {
 
 .paragrafo-secondo {
     position: absolute;
-    top: 390px;
+    top: 400px;
     transform: translate(-50%, -50%);
-    font-size: 50px;
-    line-height: 60px;
-    text-align: center;
+    font-size: 60px;
+    line-height: 65px;
     color: #23272a;
     left: 1400px;
     text-align: left;
 
+}
+
+.descrizione-paragrafo2 {
+    position: absolute;
+    top: 695px;
+    transform: translate(-57%, -85%);
+    font-size: 20px;
+    color: #23272a;
+    left: 1425px;
+    text-align: left;
 }
